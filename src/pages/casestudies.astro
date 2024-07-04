@@ -1,0 +1,25 @@
+---
+import Container from "@components/Container.astro";
+import PageLayout from "@layouts/PageLayout.astro";
+import Link from "@components/Link.astro";
+import { CASESTUDIES } from "@consts";
+---
+
+<PageLayout title={CASESTUDIES.TITLE} description={CASESTUDIES.DESCRIPTION}>
+  <Container>
+
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        Case Studies
+      </div>
+    <div class="space-y-4">
+      You can see some examples of my writing for:
+      <br />
+      B2B clients like <Link href="/Monterey.pdf">Monterey Lighting</Link>,
+      <br />
+      B2B cloud companies like <Link href="/Cloudsky.pdf">CloudSky</Link>,
+      <br />
+      and industrial manufacturers like <Link href="/Bermad.pdf">Bermad</Link>.
+    </div>
+  </Container>
+</PageLayout>
