@@ -1,74 +1,41 @@
 ---
-title: "Getting started"
-description: "Hit the ground running."
-date: "Mar 22 2024"
-draft: true
+title: "Why Async is the Future of Meetings"
+description: "An introductory post for an AI-based SaaS"
+date: "May 30 2024"
+draft: false
 ---
+In organizational charts, we excel at identifying how individuals can thrive in various roles and collaborate effectively to form a cohesive unit. However, we often neglect this approach when it comes to meetings, focusing instead on organizational or team goals. This oversight can be particularly challenging for those who struggle with public speaking. 
 
-The basic configuration of Nano is pretty simple.
+## A Trip Down Memory Lane
 
-Edit `src/consts.ts`
+Think back to high school and college: in a class of 15 to 30 students, only 5 to 10 might truly be able to listen to others' presentations while preparing for their own. While the stakes might seem higher in college than in a weekly stand-up, the reality is that if this resonates with you, you're likely one of those few, rather than the majority.
 
-Customize the base site
+Traditional meetings, especially those emphasizing status updates from many participants, often fail to accommodate diverse thinking styles. They can hinder individuals from playing to their strengths and achieving their goals within a team.
 
-```ts 
-// src/consts.ts
+The Problem with Traditional Meetings
 
-export const SITE: Site = {
-  NAME: "Astro Nano",
-  EMAIL: "markhorn.dev@gmail.com",
-  NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
-  NUM_PROJECTS_ON_HOMEPAGE: 3,
-};
-```
+Today's meetings often serve as platforms for the most outspoken individuals, overshadowing introverted or reflective team members. This dynamic stifles creativity and silences valuable contributions. The pressure to respond in real-time can also be daunting, leading to stress and reduced productivity.
 
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| NAME | Yes | Displayed in header and footer. Used in SEO and RSS. |
-| EMAIL | Yes | Displayed in contact section. |
-| NUM_POSTS | Yes | Limit num of posts on home page. |
-| NUM_WORKS | Yes | Limit num of works on home page. |
-| NUM_PROJECTS | Yes | Limit num of projects on home page. |
+Moreover, synchronous meetings disrupt workflow, pulling team members away from their tasks and forcing them to adapt to a rigid schedule. This not only hampers efficiency but also creates unnecessary workplace friction.
 
-Customize your page metadata
+# Embracing Asynchronous Meetings
 
-```ts 
-// src/consts.ts
+Asynchronous meetings address these challenges by allowing team members to participate at their own pace. This flexibility accommodates different working styles and time zones, fostering a more inclusive and productive environment. Participants can take the time to formulate their thoughts and contribute meaningful insights, leading to richer and more diverse discussions.
 
-export const HOME: Metadata = {
-  TITLE: "Home",
-  DESCRIPTION: "Astro Nano is a minimal and lightweight blog and portfolio.",
-};
-```
+Tools like MeetingMesh streamline this process. MeetingMesh enables each attendee to receive a copy of the agenda, record their responses, and have those responses analyzed and summarized by AI. This ensures everyone’s voice is heard and key points are highlighted, making follow-up more effective.
 
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| TITLE | Yes | Displayed in browser tab. Used in SEO and RSS. |
-| DESCRIPTION | Yes | Used in SEO and RSS. |
+# Benefits of Asynchronous Meetings
 
-Customize your social media
+* **Increased Productivity**: Team members can focus on their tasks without being interrupted by scheduled meetings. They can contribute to discussions when it’s most convenient for them, leading to better time management and productivity.
 
-```ts 
-// src/consts.ts
+* **Inclusivity**: Asynchronous meetings level the playing field, giving everyone an equal opportunity to participate. This is especially beneficial for remote teams and those with members across different time zones.
 
-export const SOCIALS: Socials = [
-  { 
-    NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
-  },
-  { 
-    NAME: "github",
-    HREF: "https://github.com/markhorn-dev"
-  },
-  { 
-    NAME: "linkedin",
-    HREF: "https://www.linkedin.com/in/markhorn-dev",
-  }
-];
-```
+* **Reduced Stress**: Removing the pressure of real-time responses allows participants to think more deeply about their contributions, reducing stress and fostering more thoughtful dialogue.
 
-| Field | Req | Description |
-| :---- | :-- | :-----------|
-| NAME | Yes | Displayed in contact section as a link. |
-| HREF | Yes | External url to social media profile. |
+* **Comprehensive Summaries**: AI-driven summaries ensure that all key points are captured and shared with the team. This makes it easier to track progress and follow up on action items regardless of how much focus an employee was able to muster while watching others talk.
+
+# The Future of Work
+
+As the workplace continues to evolve, so must our approach to meetings. By leveraging technology like MeetingMesh, we can ensure that every team member’s voice is heard, their contributions valued, and their workday optimized for success.
+
+It's time to rethink our approach to meetings and embrace the future of work with asynchronous solutions that cater to the diverse needs of modern teams. Sign up to get started today.
