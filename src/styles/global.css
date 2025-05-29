@@ -19,14 +19,13 @@ body {
 body {
   @apply font-sans antialiased;
   @apply flex flex-col;
-  @apply bg-stone-100 dark:bg-stone-900;
-  @apply text-black/50 dark:text-white/75;
+  @apply bg-bg-light dark:bg-bg-dark;
+  @apply text-text-light dark:text-text-dark;
 }
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-stone-100/75 dark:bg-stone-900/25;
-  @apply backdrop-blur-sm saturate-200;
+  @apply bg-bg-light dark:bg-bg-dark;
 }
 
 main {
@@ -39,8 +38,8 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-bold prose-p:font-serif;
-  @apply prose-headings:text-black prose-headings:dark:text-white;
+  @apply prose-headings:font-serif prose-p:font-sans;
+  @apply prose-headings:text-text-light prose-headings:dark:text-text-dark;
 }
 
 @layer utilities {
@@ -51,7 +50,7 @@ article {
   }
   article a:hover {
     @apply text-black dark:text-white;
-    @apply decoration-black/25 dark:decoration-white/50;
+    @apply decoration-bg-light/50 dark:decoration-bg-dark/50;
   }
 }
 

@@ -9,38 +9,35 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Sintony", ...defaultTheme.fontFamily.sans],
-        serif: ["Gentium Plus", ...defaultTheme.fontFamily.serif],
+        sans: ["Mulish", ...defaultTheme.fontFamily.sans],
+        serif: ["Iosevka Aile", ...defaultTheme.fontFamily.serif],
         mono: ["Spline Sans Mono Variable"],
       },
-      animation: {
-        typewriter: 'typewriter 2s steps(18) forwards',
-        caret: 'typewriter 2s steps(18) forwards, blink 1s steps(18)',
-      },
-      keyframes: {
-        typewriter: {
-          to: {
-            left: '100%',
-          },
-        },
-        blink: {
-          '0%': {
-            opacity: '0',
-          },
-          '0.1%': {
-            opacity: '1',
-          },
-          '50%': {
-            opacity: '1',
-          },
-          '50.1%': {
-            opacity: '0',
-          },
-          '100%': {
-            opacity: '0',
-          },
-        },
-      },
+"animation": {
+  "typewriter": "typewriter 2s steps(19) forwards",
+  "caret": "typewriter 2s steps(19) forwards, blink 2s steps(19) forwards"
+},
+"keyframes": {
+  "typewriter": {
+    "to": {
+      "left": "100%"
+    }
+  },
+  "blink": {
+    "0%": {
+      "opacity": "1"
+    },
+    "94%": {
+      "opacity": "1"
+    },
+    "95%": {
+      "opacity": "1"
+    },
+    "100%": {
+      "opacity": "0"
+    }
+  }
+},
       colors:
       { 'flush-orange': {
         '50': '#fffaec',
@@ -54,8 +51,13 @@ export default {
         '800': '#a14b0b',
         '900': '#82400c',
         '950': '#461e04',
+      },
+      'bg-light': '#eceff4',  // nord-6
+        'bg-dark': '#2e3440',   // nord-0
+        'text-light': '#2e3440', // nord-0
+        'text-dark': '#eceff4',  // nord-6
+        'color-accent': '#81a1c1', // nord-9
     },
-    }
     },
   },
   plugins: [require("@tailwindcss/typography")],
