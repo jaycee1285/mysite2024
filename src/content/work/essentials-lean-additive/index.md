@@ -1,8 +1,16 @@
 ---
-title: "Essentials of Lean and Additive Manufacturing"
+title: Essentials of Lean and Additive Manufacturing
 description: "Top-of-funnel content for a manufacturing SaaS extending industry basics."
-date: "05/12/2024"
+date: "2024-05-12"
 draft: false
+---
+
+Developed for a SaaS client selling into manufacturing orgs transitioning toward additive workflows. This article bridges industrial process theory (TPS, muda) with AM implementation benefits. I wrote it to convert abstract operational efficiency into something search-relevant, credible, and accessible to plant-level readers.
+
+**Role:** Lead writer  
+**Audience:** Ops directors, manufacturing process leads  
+**Use Case:** SEO discovery + SaaS brand authority
+
 ---
 
 There are a dozen words to describe it, but lean manufacturing is focused on eliminating waste. In the pioneering Toyota Production System, this was described as *muda*, and there are seven elements that firms strive to eliminate when improving their processes: stock management, waiting, lead time, over-processing, motion, transportation and defects. The primary means of addressing these have been through administrative, process or routine changes.
@@ -36,4 +44,3 @@ In that same vein, transportation is often a concern for manufacturing due to th
 It’s true that additive manufacturing can help reduce waste in assembly of a variety of components. However, that does not mean that on its own, it can be a panacea that solves all issues without diligence and repeated inspections. Using the right [quality management system](https://bright-am.com/repeatability-in-additive-manufacturing/) can help detect flaws in initial layers of an AM piece. This allows for changes in design or whatever else you need to ensure that repeatability of components is feasible.
 
 To learn more about what can happen when QMS is used in additive manufacturing, check out some of our [customer success stories](https://bright-am.com/key-results/).
-

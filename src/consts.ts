@@ -13,13 +13,13 @@ export const HOME: Metadata = {
   DESCRIPTION: "John Curran is your cure for Blank Page Syndrome.",
 };
 
-export const BLOG: Metadata = {
-  TITLE: "Articles",
+export const WORK: Metadata = {
+  TITLE: "Work",
   DESCRIPTION: "Some of my recent B2B work",
 };
 
-export const WORK: Metadata = {
-  TITLE: "Work",
+export const EXPERIENCE: Metadata = {
+  TITLE: "Experience",
   DESCRIPTION: "I've worked with these companies",
 };
 

@@ -52,10 +52,10 @@ export default {
         '900': '#82400c',
         '950': '#461e04',
       },
-      'bg-light': '#eceff4',  // nord-6
-        'bg-dark': '#2e3440',   // nord-0
-        'text-light': '#2e3440', // nord-0
-        'text-dark': '#eceff4',  // nord-6
+      'bg-light': '#d8dee9',  // nord-6
+        'bg-dark': '#3b4252',   // nord-0
+        'text-light': '#3b4252', // nord-0
+        'text-dark': '#d8dee9',  // nord-6
         'color-accent': '#81a1c1', // nord-9
     },
     },

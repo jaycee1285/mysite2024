@@ -2,17 +2,17 @@
 title: "Why Async is the Future of Meetings"
 description: "An introductory post for an AI-based SaaS"
 date: "May 30 2024"
-draft: false
+draft: true
 ---
 In organizational charts, we excel at identifying how individuals can thrive in various roles and collaborate effectively to form a cohesive unit. However, we often neglect this approach when it comes to meetings, focusing instead on organizational or team goals. This oversight can be particularly challenging for those who struggle with public speaking. 
 
-## A Trip Down Memory Lane
+# A Trip Down Memory Lane
 
 Think back to high school and college: in a class of 15 to 30 students, only 5 to 10 might truly be able to listen to others' presentations while preparing for their own. While the stakes might seem higher in college than in a weekly stand-up, the reality is that if this resonates with you, you're likely one of those few, rather than the majority.
 
 Traditional meetings, especially those emphasizing status updates from many participants, often fail to accommodate diverse thinking styles. They can hinder individuals from playing to their strengths and achieving their goals within a team.
 
-The Problem with Traditional Meetings
+# The Problem with Traditional Meetings
 
 Today's meetings often serve as platforms for the most outspoken individuals, overshadowing introverted or reflective team members. This dynamic stifles creativity and silences valuable contributions. The pressure to respond in real-time can also be daunting, leading to stress and reduced productivity.
 
