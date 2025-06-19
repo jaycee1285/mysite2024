@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Mulish", ...defaultTheme.fontFamily.sans],
+        sans: ["Spline Sans", ...defaultTheme.fontFamily.sans],
         serif: ["Iosevka Aile", ...defaultTheme.fontFamily.serif],
         mono: ["Spline Sans Mono Variable"],
       },

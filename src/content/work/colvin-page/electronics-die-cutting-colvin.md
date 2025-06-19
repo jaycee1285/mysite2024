@@ -1,7 +1,7 @@
 ---
 title: Industrial Manufacturing Content – Die-Cut Components for Electronics
 description: "Foundational content bridging spec-heavy input with procurement clarity."
-date: "2023-05-01"
+date: "2025-05-01"
 draft: false
 ---
 

@@ -4,4 +4,5 @@ role: "Content Writer"
 dateStart: "02/1/2008"
 dateEnd: "01/01/2009"
 ---
-Wrote a high volume of SEO news articles for clients ranging from biotech to online education. Managed and onboarded a team of remote freelancers, developing content templates and guidelines for productized content creation environment.
+• Produced 20+ articles/week (~1,000 words each) for clients in biotech, automotive, and legal verticals.<br />
+• Onboarded and supported three freelancers; adapted editorial strategy to align with domain-specific tone and legal constraints.

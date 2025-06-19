@@ -1,7 +1,8 @@
 ---
-company: "Toyota"
-role: "Copywriter"
+company: "Toyota (via Agency)"
+role: "Contract Copywriter "
 dateStart: "1/1/2014"
 dateEnd: "12/1/2014"
 ---
-Created internal sales team brochures, focusing on detailed 1:1 competitor vehicle comparisons. Leveraged prior dealership experience to speed up time to review by 200 percent. Identified discrepancy in the MY2015 Toyota Tacoma brochure, saving $100K+ in reprinting.
+• Authored competitive comparison brochures (e.g., Tundra vs. F-150) for dealer training and sales floor readiness. <br />
+• Flagged pre-launch spec error in 2015 Tacoma cargo dimensions, avoiding $100K+ print error and preserving credibility for flagship midsize launch.
